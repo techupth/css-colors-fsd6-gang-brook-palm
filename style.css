@@ -1,1 +1,23 @@
-/* Start coding here */
+body {
+  background-image: linear-gradient(
+    45deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  width: 500px;
+  padding: 5px 30px 30px 30px;
+  margin: 35vh auto;
+  background-color: hsla(0, 50%, 100%, 0.5);
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
